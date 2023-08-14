@@ -32,7 +32,9 @@
 					There is no more cross-channel confusion and everyone is much more focused.”
 				</p>
 			</div>
-			<div class="min-h-48 w-[516px] bg-very-light-gray text-center p-7 testimonial-card">
+			<div
+				class="{min-h-48 w-[516px] bg-very-light-gray text-center p-7 testimonial-card hidden:screen.width <= 375}"
+			>
 				<img
 					src="/avatar-richard.png"
 					alt=""
