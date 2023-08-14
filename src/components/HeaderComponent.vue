@@ -7,7 +7,7 @@
 
 <template>
 	<header class="container mx-auto relative pt-6 px-16">
-		<img src="bg-tablet-pattern.svg" alt="" />
+		<img src="bg-tablet-pattern.png" alt="" />
 		<NavBar />
 		<BigHero />
 	</header>
