@@ -1,9 +1,12 @@
 <script setup>
-	//
+	import { ref } from 'vue';
+	import MenuModal from './MenuModal.vue';
+
+	const showModal = ref(false);
 </script>
 
 <template>
-	<nav class="pt-6 flex justify-between items-center">
+	<nav class="pt-6 flex justify-between items-center relative">
 		<img src="/logo.svg" alt="" class="logo" />
 		<ul class="flex gap-8 justify-center text-very-dark-blue menu">
 			<li>Pricing</li>
@@ -15,9 +18,18 @@
 		<button class="bg-bright-red shadow-br text-white rounded-[32px] mr-7 btn-nav">
 			Get Started
 		</button>
-		<img src="/icon-hamburger.svg" alt="" class="hidden hamburger" />
+		<img
+			src="/icon-hamburger.svg"
+			alt=""
+			class="hidden hamburger"
+			v-if="!showModal"
+			@click="showModal = true"
+		/>
 
 		<!-- Modal Menu -->
+		<Teleport to="body">
+			<MenuModal :show="showModal" @close="showModal = false" />
+		</Teleport>
 	</nav>
 </template>
 

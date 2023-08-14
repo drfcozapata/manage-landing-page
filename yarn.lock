@@ -359,13 +359,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/web-bluetooth@npm:^0.0.16":
-  version: 0.0.16
-  resolution: "@types/web-bluetooth@npm:0.0.16"
-  checksum: f68a630d062202a25c46d48686ebae1cf429dc70b4578fcf13b8357b2db63e4aedfb6f6d752bd388366be46ebd19c1c9de45f8a15c2631bb79e904fdfc454f94
-  languageName: node
-  linkType: hard
-
 "@vitejs/plugin-vue@npm:^4.2.3":
   version: 4.2.3
   resolution: "@vitejs/plugin-vue@npm:4.2.3"
@@ -485,80 +478,6 @@ __metadata:
   version: 3.3.4
   resolution: "@vue/shared@npm:3.3.4"
   checksum: 12fe53ff816bfa29ea53f89212067a86512c626b8d30149ff28b36705820f6150e1fb4e4e46897ad9eddb1d1cfc02d8941053939910eed69a905f7a5509baabe
-  languageName: node
-  linkType: hard
-
-"@vueuse/core@npm:9.13.0, @vueuse/core@npm:^9.13.0":
-  version: 9.13.0
-  resolution: "@vueuse/core@npm:9.13.0"
-  dependencies:
-    "@types/web-bluetooth": ^0.0.16
-    "@vueuse/metadata": 9.13.0
-    "@vueuse/shared": 9.13.0
-    vue-demi: "*"
-  checksum: 2b19d8ec4305f6c65650813c0fa9c15af6b322fc253ad656eb1c4bc8d7617a2ddd46a46d7ea359c4cdc5a5724aa5fc152fa7a3816ed6ebeaec4f7e58defb7153
-  languageName: node
-  linkType: hard
-
-"@vueuse/integrations@npm:^9.13.0":
-  version: 9.13.0
-  resolution: "@vueuse/integrations@npm:9.13.0"
-  dependencies:
-    "@vueuse/core": 9.13.0
-    "@vueuse/shared": 9.13.0
-    vue-demi: "*"
-  peerDependencies:
-    async-validator: "*"
-    axios: "*"
-    change-case: "*"
-    drauu: "*"
-    focus-trap: "*"
-    fuse.js: "*"
-    idb-keyval: "*"
-    jwt-decode: "*"
-    nprogress: "*"
-    qrcode: "*"
-    universal-cookie: "*"
-  peerDependenciesMeta:
-    async-validator:
-      optional: true
-    axios:
-      optional: true
-    change-case:
-      optional: true
-    drauu:
-      optional: true
-    focus-trap:
-      optional: true
-    fuse.js:
-      optional: true
-    idb-keyval:
-      optional: true
-    jwt-decode:
-      optional: true
-    nprogress:
-      optional: true
-    qrcode:
-      optional: true
-    universal-cookie:
-      optional: true
-  checksum: f0b99f65514a75d97b694a66b4455a19357780adb45747a47a60211c55752b739d628d227ebb600eb659c4185455f24e9f5b43eb333459f2aec654020359c560
-  languageName: node
-  linkType: hard
-
-"@vueuse/metadata@npm:9.13.0":
-  version: 9.13.0
-  resolution: "@vueuse/metadata@npm:9.13.0"
-  checksum: 91e137bf2fb1406587b523edae26b58b315d3a59797c9f2ed5dde9cb707026aa740b86da5955ea7f9662a93ce92249d0b3af763c65449b4a843bbd0725eb67f6
-  languageName: node
-  linkType: hard
-
-"@vueuse/shared@npm:9.13.0":
-  version: 9.13.0
-  resolution: "@vueuse/shared@npm:9.13.0"
-  dependencies:
-    vue-demi: "*"
-  checksum: e53e7312bdd2030b7970afcf4d3dc3f9a47f7721a92ccb51c364d23246233cb54758f7ddacbdb9ac63d1e86ec82e97d06cb53b05a4b8d43be877d16ab61dd9bb
   languageName: node
   linkType: hard
 
@@ -1095,15 +1014,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"focus-trap@npm:^7.4.0":
-  version: 7.5.2
-  resolution: "focus-trap@npm:7.5.2"
-  dependencies:
-    tabbable: ^6.2.0
-  checksum: 1eee29d18c152ef08849a5cfd6d462a6741ec15f08938a9d87336d47807f07dbfff2e6405b16b5ce96745eb86b60f3dcdd87b63f0ad240e47252254d2c248d40
-  languageName: node
-  linkType: hard
-
 "foreground-child@npm:^3.1.0":
   version: 3.1.1
   resolution: "foreground-child@npm:3.1.1"
@@ -1532,7 +1442,7 @@ __metadata:
     tailwindcss: ^3.3.3
     vite: ^4.4.9
     vue: ^3.3.4
-    vue-final-modal: ^4.4.5
+    vue-final-modal: 3
   languageName: unknown
   linkType: soft
 
@@ -2255,13 +2165,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tabbable@npm:^6.2.0":
-  version: 6.2.0
-  resolution: "tabbable@npm:6.2.0"
-  checksum: f8440277d223949272c74bb627a3371be21735ca9ad34c2570f7e1752bd646ccfc23a9d8b1ee65d6561243f4134f5fbbf1ad6b39ac3c4b586554accaff4a1300
-  languageName: node
-  linkType: hard
-
 "tailwindcss@npm:^3.3.3":
   version: 3.3.3
   resolution: "tailwindcss@npm:3.3.3"
@@ -2429,36 +2332,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-demi@npm:*":
-  version: 0.14.5
-  resolution: "vue-demi@npm:0.14.5"
-  peerDependencies:
-    "@vue/composition-api": ^1.0.0-rc.1
-    vue: ^3.0.0-0 || ^2.6.0
-  peerDependenciesMeta:
-    "@vue/composition-api":
-      optional: true
-  bin:
-    vue-demi-fix: bin/vue-demi-fix.js
-    vue-demi-switch: bin/vue-demi-switch.js
-  checksum: ff44b9372b8224590514252a2f73363cced6062205f9628a6b130dccb80e2023d55cd9d1da94aeb68d5539b7ea9eedcecf88ab281a3a9ff48b8db4c5366b9643
-  languageName: node
-  linkType: hard
-
-"vue-final-modal@npm:^4.4.5":
-  version: 4.4.5
-  resolution: "vue-final-modal@npm:4.4.5"
-  dependencies:
-    "@vueuse/core": ^9.13.0
-    "@vueuse/integrations": ^9.13.0
-    focus-trap: ^7.4.0
-    vue: ^3.3.4
-  peerDependencies:
-    "@vueuse/core": ">=9.11.1"
-    "@vueuse/integrations": ">=9.11.1"
-    focus-trap: ">=7.2.0"
-    vue: ">=3.2.0"
-  checksum: 7212e8d38c86a6c4952c7073e4549a6edcc8152189f519930b37803815bb108e38dc20ecf734f1e03eb9da71ada78927324a670b438632d711add5657afe4a93
+"vue-final-modal@npm:3":
+  version: 3.4.11
+  resolution: "vue-final-modal@npm:3.4.11"
+  checksum: 8ff680357e295702c2a811f021b64b338e7efe6c8363658c2f890712cb394b99b18abff79684f0018e12831177183d7d64db9a809fe4a868355ebf0d0adb8fb2
   languageName: node
   linkType: hard
 
