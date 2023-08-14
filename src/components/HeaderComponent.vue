@@ -58,7 +58,7 @@
 			}
 		}
 	}
-	@media (max-width: 420px) {
+	@media (max-width: 375px) {
 		header {
 			padding: 15px 25px 40px 25px;
 			margin: 0;

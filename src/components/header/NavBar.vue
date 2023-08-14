@@ -63,7 +63,7 @@
 			width: 144px;
 		}
 	}
-	@media (max-width: 420px) {
+	@media (max-width: 375px) {
 		nav {
 			.menu,
 			.btn-nav {

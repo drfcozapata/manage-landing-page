@@ -90,7 +90,7 @@
 			}
 		}
 	}
-	@media (max-width: 420px) {
+	@media (max-width: 375px) {
 		section {
 			flex-direction: column-reverse;
 			margin-bottom: 0px;

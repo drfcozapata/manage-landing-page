@@ -75,7 +75,7 @@
 			}
 		}
 	}
-	@media (max-width: 420px) {
+	@media (max-width: 375px) {
 		.up-footer {
 			padding: 0 20px;
 			div {

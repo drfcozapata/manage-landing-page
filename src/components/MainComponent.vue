@@ -49,7 +49,7 @@
 			left: -480px;
 		}
 	}
-	@media (max-width: 420px) {
+	@media (max-width: 375px) {
 		main {
 			padding: 0;
 		}

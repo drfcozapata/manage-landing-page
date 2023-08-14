@@ -141,7 +141,7 @@
 			}
 		}
 	}
-	@media (max-width: 420px) {
+	@media (max-width: 375px) {
 		section {
 			margin-bottom: 40px;
 			h2 {

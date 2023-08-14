@@ -194,7 +194,7 @@
 			}
 		}
 	}
-	@media (max-width: 420px) {
+	@media (max-width: 375px) {
 		section {
 			.down-footer {
 				flex-direction: column-reverse;

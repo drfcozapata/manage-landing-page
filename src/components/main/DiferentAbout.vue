@@ -165,7 +165,7 @@
 			}
 		}
 	}
-	@media (max-width: 420px) {
+	@media (max-width: 375px) {
 		.diferent-about {
 			flex-direction: column;
 			margin-bottom: 70px;
