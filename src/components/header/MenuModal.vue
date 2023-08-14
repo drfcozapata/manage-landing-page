@@ -8,7 +8,7 @@
 		content-class="flex flex-col mx-auto -mt-[480px] py-10 px-28 bg-white rounded space-y-2"
 	>
 		<!-- <img
-			src="icon-close.svg"
+			src="/icon-close.svg"
 			alt=""
 			@click="emit('confirm')"
 			class="-top-40 -right-40 w-6 h-6 cursor-pointer"

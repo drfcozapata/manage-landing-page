@@ -4,7 +4,7 @@
 
 <template>
 	<nav class="pt-6 flex justify-between items-center">
-		<img src="logo.svg" alt="" class="logo" />
+		<img src="/logo.svg" alt="" class="logo" />
 		<ul class="flex gap-8 justify-center text-very-dark-blue menu">
 			<li>Pricing</li>
 			<li>Product</li>
@@ -15,7 +15,7 @@
 		<button class="bg-bright-red shadow-br text-white rounded-[32px] mr-7 btn-nav">
 			Get Started
 		</button>
-		<img src="icon-hamburger.svg" alt="" class="hidden hamburger" />
+		<img src="/icon-hamburger.svg" alt="" class="hidden hamburger" />
 
 		<!-- Modal Menu -->
 	</nav>

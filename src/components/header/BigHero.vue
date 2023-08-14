@@ -17,7 +17,7 @@
 			</button>
 		</article>
 		<article class="w-[60%] flex justify-end">
-			<img src="illustration-intro.svg" alt="" />
+			<img src="/illustration-intro.svg" alt="" />
 		</article>
 	</section>
 </template>

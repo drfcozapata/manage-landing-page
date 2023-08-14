@@ -11,7 +11,7 @@
 				<p class="text-dark-grayish-blue text-[13px] hidden">
 					Copyright 2023. All Rights Reserved
 				</p>
-				<img src="logo-w.svg" alt="" />
+				<img src="/logo-w.svg" alt="" />
 				<div class="flex gap-3">
 					<a href=""
 						><font-awesome-icon :icon="['fab', 'square-facebook']" class="w-5 h-5 icon"

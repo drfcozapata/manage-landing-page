@@ -7,7 +7,7 @@
 
 <template>
 	<header class="container mx-auto relative pt-6 px-16">
-		<img src="../assets/image/bg-pattern.png" alt="" />
+		<img src="/bg-tablet-pattern.svg" alt="" />
 		<NavBar />
 		<BigHero />
 	</header>
@@ -25,9 +25,9 @@
 		header {
 			padding-top: 60px;
 			img {
-				height: 100%;
-				top: -210px;
-				right: -300px;
+				height: 105%;
+				top: -270px;
+				right: -340px;
 			}
 		}
 	}
@@ -35,17 +35,17 @@
 		header {
 			padding-top: 50px;
 			img {
-				height: 95%;
-				top: -160px;
-				right: -250px;
+				height: 98%;
+				top: -180px;
+				right: -260px;
 			}
 		}
 	}
 	@media (max-width: 1366px) {
 		img {
-			height: 95%;
+			height: 96%;
 			top: -160px;
-			right: -250px;
+			right: -240px;
 		}
 	}
 	@media (max-width: 1280px) {
@@ -54,7 +54,7 @@
 			img {
 				height: 95%;
 				top: -150px;
-				right: -220px;
+				right: -225px;
 			}
 		}
 	}

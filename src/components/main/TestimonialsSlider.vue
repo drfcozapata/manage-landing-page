@@ -10,7 +10,7 @@
 		<article class="flex gap-6 -ml-7 mb-11">
 			<div class="min-h-48 w-[516px] bg-very-light-gray text-center p-7 testimonial-card">
 				<img
-					src="avatar-anisha.png"
+					src="/avatar-anisha.png"
 					alt=""
 					class="w-[60px] h-[60px] rounded-full -mt-14 mx-auto mb-5"
 				/>
@@ -22,7 +22,7 @@
 			</div>
 			<div class="min-h-48 w-[516px] bg-very-light-gray text-center p-7 testimonial-card">
 				<img
-					src="avatar-ali.png"
+					src="/avatar-ali.png"
 					alt=""
 					class="w-[60px] h-[60px] rounded-full -mt-14 mx-auto mb-5"
 				/>
@@ -34,7 +34,7 @@
 			</div>
 			<div class="min-h-48 w-[516px] bg-very-light-gray text-center p-7 testimonial-card">
 				<img
-					src="avatar-richard.png"
+					src="/avatar-richard.png"
 					alt=""
 					class="w-[60px] h-[60px] rounded-full -mt-14 mx-auto mb-5"
 				/>
@@ -48,7 +48,7 @@
 				class="min-h-48 w-[516px] bg-very-light-gray text-center p-7 testimonial-card hidden"
 			>
 				<img
-					src="avatar-shanai.png"
+					src="/avatar-shanai.png"
 					alt=""
 					class="w-[60px] h-[60px] rounded-full -mt-14 mx-auto mb-5"
 				/>

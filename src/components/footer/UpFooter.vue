@@ -5,8 +5,8 @@
 <template>
 	<section class="bg-bright-red">
 		<div class="container px-16 mx-auto flex justify-between relative up-footer">
-			<img src="bg-simplify-section-desktop.svg" alt="" class="img-desktop" />
-			<img src="bg-simplify-section-mobile.svg" alt="" class="img-mobile hidden" />
+			<img src="/bg-simplify-section-desktop.svg" alt="" class="img-desktop" />
+			<img src="/bg-simplify-section-mobile.svg" alt="" class="img-mobile hidden" />
 			<div class="container relative flex justify-between items-center py-14">
 				<h2 class="text-4xl text-white font-semibold h2-desktop">
 					Simplify how your team <br />works today.

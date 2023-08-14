@@ -7,7 +7,7 @@
 
 <template>
 	<main class="container mx-auto relative px-16">
-		<img src="../assets/image/bg-pattern.png" alt="" />
+		<img src="/bg-tablet-pattern.svg" alt="" />
 		<DiferentAbout />
 		<TestimonialsSlider />
 	</main>
@@ -25,7 +25,7 @@
 		img {
 			height: 77%;
 			top: 310px;
-			left: -680px;
+			left: -700px;
 		}
 	}
 	@media (max-width: 1440px) {
@@ -35,11 +35,18 @@
 			left: -600px;
 		}
 	}
+	@media (max-width: 1366px) {
+		img {
+			height: 75%;
+			top: 250px;
+			left: -550px;
+		}
+	}
 	@media (max-width: 1280px) {
 		img {
 			height: 75%;
-			top: 220px;
-			left: -500px;
+			top: 240px;
+			left: -480px;
 		}
 	}
 	@media (max-width: 420px) {
