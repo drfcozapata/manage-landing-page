@@ -25,9 +25,9 @@
 		header {
 			padding-top: 60px;
 			img {
-				height: 105%;
-				top: -240px;
-				right: -310px;
+				height: 100%;
+				top: -210px;
+				right: -300px;
 			}
 		}
 	}
@@ -35,17 +35,17 @@
 		header {
 			padding-top: 50px;
 			img {
-				height: 98%;
-				top: -170px;
+				height: 95%;
+				top: -160px;
 				right: -250px;
 			}
 		}
 	}
 	@media (max-width: 1366px) {
 		img {
-			height: 96%;
+			height: 95%;
 			top: -160px;
-			right: -240px;
+			right: -250px;
 		}
 	}
 	@media (max-width: 1280px) {
@@ -54,7 +54,7 @@
 			img {
 				height: 95%;
 				top: -150px;
-				right: -230px;
+				right: -220px;
 			}
 		}
 	}
