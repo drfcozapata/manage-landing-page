@@ -7,7 +7,7 @@
 
 <template>
 	<main class="container mx-auto relative px-16">
-		<img src="bg-tablet-pattern.png" alt="" />
+		<img src="../assets/image/bg-pattern.png" alt="" />
 		<DiferentAbout />
 		<TestimonialsSlider />
 	</main>
