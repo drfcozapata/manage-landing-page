@@ -1,5 +1,5 @@
 <template>
-	<div class="flex gap-[95px] mb-32 diferent-about">
+	<div class="container flex gap-[95px] mb-20 diferent-about px-16 mx-auto">
 		<section class="flex flex-col gap-8 w-1/2 about-left">
 			<h2 class="text-4xl text-dark-blue font-semibold">
 				What’s different about Manage?
@@ -63,7 +63,7 @@
 	@media (max-width: 1920px) {
 		.diferent-about {
 			gap: 110px;
-			margin-bottom: 180px;
+			margin-bottom: 140px;
 			.about-left {
 				h2 {
 					font-size: 43px;
@@ -87,7 +87,7 @@
 	}
 	@media (max-width: 1440px) {
 		.diferent-about {
-			margin-bottom: 160px;
+			margin-bottom: 120px;
 			.about-left {
 				h2 {
 					font-size: 36px;
@@ -112,7 +112,7 @@
 	@media (max-width: 1366px) {
 		.diferent-about {
 			gap: 105px;
-			margin-bottom: 140px;
+			margin-bottom: 120px;
 			.about-left {
 				h2 {
 					font-size: 36px;
@@ -162,10 +162,15 @@
 		}
 	}
 	@media (max-width: 420px) {
+		.container {
+			max-width: 420px;
+		}
 		.diferent-about {
 			flex-direction: column;
 			margin-bottom: 70px;
 			gap: 55px;
+			padding-left: 0;
+			padding-right: 0;
 			.about-left {
 				width: 100%;
 				text-align: center;

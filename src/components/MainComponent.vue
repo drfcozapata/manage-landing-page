@@ -24,29 +24,29 @@
 	@media (max-width: 1920px) {
 		img {
 			height: 77%;
-			top: 310px;
-			left: -700px;
+			top: 290px;
+			left: -680px;
 		}
 	}
 	@media (max-width: 1440px) {
 		img {
 			height: 75%;
-			top: 260px;
-			left: -600px;
+			top: 250px;
+			left: -580px;
 		}
 	}
 	@media (max-width: 1366px) {
 		img {
 			height: 75%;
-			top: 250px;
+			top: 240px;
 			left: -550px;
 		}
 	}
 	@media (max-width: 1280px) {
 		img {
-			height: 75%;
-			top: 240px;
-			left: -480px;
+			height: 70%;
+			top: 230px;
+			left: -470px;
 		}
 	}
 	@media (max-width: 420px) {
