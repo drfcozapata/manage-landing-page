@@ -41,6 +41,39 @@ button:hover {
 		font-weight: 500;
 		padding: 13px 40px;
 	}
+	.carousel__pagination {
+		display: flex;
+		margin: 0;
+		padding: 0;
+	}
+	.carousel__pagination-button {
+		display: block;
+		cursor: pointer;
+		padding: 10px;
+		background: transparent;
+		box-shadow: none !important;
+		width: 8px !important;
+		height: 8px !important;
+		border-radius: 50%;
+		border: 2px solid hsl(12, 88%, 59%) !important;
+		margin: 0 3px 15px 3px !important;
+	}
+
+	.carousel__pagination-button::after {
+		display: block;
+		content: '';
+		width: 8px !important;
+		height: 8px !important;
+		border-radius: 50% !important;
+		background-color: transparent !important;
+	}
+
+	.carousel__pagination-button:hover::after,
+	.carousel__pagination-button--active::after {
+		margin-top: -4px;
+		margin-left: -4px;
+		background-color: hsl(12, 88%, 59%) !important;
+	}
 }
 @media (max-width: 1440px) {
 	body {

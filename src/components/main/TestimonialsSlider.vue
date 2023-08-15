@@ -40,15 +40,36 @@
 				],
 			};
 		},
+		methods: {
+			itemsToShow() {
+				if (screen.width <= 420) {
+					return 1.4;
+				} else {
+					return 2.6;
+				}
+			},
+			showPagination() {
+				if (screen.width <= 420) {
+					return '';
+				} else {
+					return 'hidden';
+				}
+			},
+		},
 	});
 </script>
 
 <template>
-	<section class="flex flex-col items-center mb-32">
+	<section class="flex flex-col items-center">
 		<h2 class="text-4xl text-dark-blue font-semibold text-center mb-20">
 			What they’ve said
 		</h2>
-		<Carousel :items-to-show="2.6" :autoplay="4000" :wrap-around="true" class="carousel">
+		<Carousel
+			:items-to-show="itemsToShow()"
+			:autoplay="4000"
+			:wrap-around="true"
+			class="carousel"
+		>
 			<Slide v-for="{ id, image, name, msg } in slides" :key="id">
 				<div class="carousel__item relative mr-6 testimonial-card bg-very-light-gray">
 					<img
@@ -63,47 +84,57 @@
 			</Slide>
 
 			<template #addons>
-				<div class="hidden">
+				<div :class="showPagination()">
 					<Pagination />
 				</div>
 			</template>
 		</Carousel>
-		<button class="bg-bright-red shadow-br text-white rounded-[32px] mt-10">
+		<button class="bg-bright-red shadow-br text-white rounded-[32px] btn-main">
 			Get Started
 		</button>
 	</section>
 </template>
 
 <style lang="scss" scoped>
-	.testimonial-card {
-		margin-top: 30px;
-		padding: 30px;
+	section {
+		margin-bottom: 80px;
+		.testimonial-card {
+			margin-top: 30px;
+			padding: 30px;
+		}
+		.btn-main {
+			margin-top: -30px;
+		}
+	}
+	@media (max-width: 1920px) {
+		section {
+			margin-bottom: 80px;
+			.testimonial-card {
+				margin-top: 30px;
+				margin-right: 28px;
+			}
+			.btn-main {
+				margin-top: -30px;
+				margin-bottom: 80px;
+			}
+		}
+	}
+	@media (max-width: 1440px) {
+		section {
+			.btn-main {
+				margin-bottom: 40px;
+			}
+		}
 	}
 	@media (max-width: 420px) {
 		section {
-			margin-bottom: 40px;
-			h2 {
-				font-size: 30px;
-				margin-bottom: 85px;
+			margin-bottom: 0px;
+			.testimonial-card {
+				min-height: 270px;
+				margin: 30px 14px 15px 14px;
 			}
-			article {
-				gap: 24px;
-				.testimonial-card {
-					min-height: 200px;
-					width: 90vw;
-					padding: 20px;
-					font-size: 14px;
-					line-height: 1.8;
-					img {
-						width: 60px;
-						height: 60px;
-						margin-top: -50px;
-						margin-bottom: 20px;
-					}
-				}
-			}
-			button {
-				padding: 11px 20px;
+			.btn-main {
+				margin-top: 25px;
 			}
 		}
 	}
