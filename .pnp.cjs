@@ -40,7 +40,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["tailwindcss", "npm:3.3.3"],\
             ["vite", "virtual:5d893b91cd2a727129e2a7db658b855d1ccbf927a3f86d172a705092cd208f4583bab55f620373fc8a95bb226aec2825222d934a619f1c905f46d3b041e8b9a4#npm:4.4.9"],\
             ["vue", "npm:3.3.4"],\
-            ["vue-final-modal", "npm:3.4.11"]\
+            ["vue-final-modal", "npm:3.4.11"],\
+            ["vue3-carousel", "virtual:5d893b91cd2a727129e2a7db658b855d1ccbf927a3f86d172a705092cd208f4583bab55f620373fc8a95bb226aec2825222d934a619f1c905f46d3b041e8b9a4#npm:0.3.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -1698,7 +1699,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["tailwindcss", "npm:3.3.3"],\
             ["vite", "virtual:5d893b91cd2a727129e2a7db658b855d1ccbf927a3f86d172a705092cd208f4583bab55f620373fc8a95bb226aec2825222d934a619f1c905f46d3b041e8b9a4#npm:4.4.9"],\
             ["vue", "npm:3.3.4"],\
-            ["vue-final-modal", "npm:3.4.11"]\
+            ["vue-final-modal", "npm:3.4.11"],\
+            ["vue3-carousel", "virtual:5d893b91cd2a727129e2a7db658b855d1ccbf927a3f86d172a705092cd208f4583bab55f620373fc8a95bb226aec2825222d934a619f1c905f46d3b041e8b9a4#npm:0.3.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -2733,6 +2735,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/vue-final-modal-npm-3.4.11-d54d6bfec2-8ff680357e.zip/node_modules/vue-final-modal/",\
           "packageDependencies": [\
             ["vue-final-modal", "npm:3.4.11"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["vue3-carousel", [\
+        ["npm:0.3.1", {\
+          "packageLocation": "./.yarn/cache/vue3-carousel-npm-0.3.1-b5129c0f59-804a074b79.zip/node_modules/vue3-carousel/",\
+          "packageDependencies": [\
+            ["vue3-carousel", "npm:0.3.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:5d893b91cd2a727129e2a7db658b855d1ccbf927a3f86d172a705092cd208f4583bab55f620373fc8a95bb226aec2825222d934a619f1c905f46d3b041e8b9a4#npm:0.3.1", {\
+          "packageLocation": "./.yarn/__virtual__/vue3-carousel-virtual-91b680bb50/0/cache/vue3-carousel-npm-0.3.1-b5129c0f59-804a074b79.zip/node_modules/vue3-carousel/",\
+          "packageDependencies": [\
+            ["vue3-carousel", "virtual:5d893b91cd2a727129e2a7db658b855d1ccbf927a3f86d172a705092cd208f4583bab55f620373fc8a95bb226aec2825222d934a619f1c905f46d3b041e8b9a4#npm:0.3.1"],\
+            ["@types/vue", null],\
+            ["vue", "npm:3.3.4"]\
+          ],\
+          "packagePeers": [\
+            "@types/vue",\
+            "vue"\
           ],\
           "linkType": "HARD"\
         }]\

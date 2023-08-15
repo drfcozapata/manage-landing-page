@@ -1,7 +1,3 @@
-<script setup>
-	//
-</script>
-
 <template>
 	<section class="bg-very-dark-blue">
 		<div
@@ -194,7 +190,7 @@
 			}
 		}
 	}
-	@media (max-width: 375px) {
+	@media (max-width: 420px) {
 		section {
 			.down-footer {
 				flex-direction: column-reverse;

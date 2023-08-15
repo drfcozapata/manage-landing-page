@@ -23,6 +23,13 @@
 </template>
 
 <style lang="scss" scoped>
+	section {
+		article {
+			img {
+				filter: drop-shadow(0px 1px 1px hsl(227, 12%, 61%, 0.3));
+			}
+		}
+	}
 	@media (max-width: 1920px) {
 		section {
 			margin-bottom: 30px;
@@ -90,7 +97,7 @@
 			}
 		}
 	}
-	@media (max-width: 375px) {
+	@media (max-width: 420px) {
 		section {
 			flex-direction: column-reverse;
 			margin-bottom: 0px;

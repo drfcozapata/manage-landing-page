@@ -1,7 +1,3 @@
-<script setup>
-	//
-</script>
-
 <template>
 	<div class="flex gap-[95px] mb-32 diferent-about">
 		<section class="flex flex-col gap-8 w-1/2 about-left">
@@ -165,7 +161,7 @@
 			}
 		}
 	}
-	@media (max-width: 375px) {
+	@media (max-width: 420px) {
 		.diferent-about {
 			flex-direction: column;
 			margin-bottom: 70px;

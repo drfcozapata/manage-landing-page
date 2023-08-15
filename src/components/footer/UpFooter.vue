@@ -1,7 +1,3 @@
-<script setup>
-	//
-</script>
-
 <template>
 	<section class="bg-bright-red">
 		<div class="container px-16 mx-auto flex justify-between relative up-footer">
@@ -75,7 +71,7 @@
 			}
 		}
 	}
-	@media (max-width: 375px) {
+	@media (max-width: 420px) {
 		.up-footer {
 			padding: 0 20px;
 			div {

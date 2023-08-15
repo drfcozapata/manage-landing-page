@@ -6,7 +6,7 @@
 </script>
 
 <template>
-	<main class="container mx-auto relative px-16">
+	<main class="mx-auto relative">
 		<img src="/bg-tablet-pattern.svg" alt="" />
 		<DiferentAbout />
 		<TestimonialsSlider />
@@ -49,7 +49,7 @@
 			left: -480px;
 		}
 	}
-	@media (max-width: 375px) {
+	@media (max-width: 420px) {
 		main {
 			padding: 0;
 		}
